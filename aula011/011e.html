@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="bt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>==estrangeiro//brasileiro==</title>
+</head>
+<body>
+    <h1>Vivendo no </h1>pais: <input type="text" name="nomep" id="nomep">parabens
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular(){
+            var nomep1 = window.document.querySelector('input#nomep');
+            var brasil = window.document.querySelector('input#brasil');
+            var estrangeiro = window.document.querySelector('input#estrangeiro');
+            var brasileiro = window.document.querySelector('input#brasileiro');
+            var res = window.document.querySelector('div#res');
+            var vel = Number(nomep1.value);
+            brasil=brasileiro;
+
+            res.innerHTML ==`<p>aqui é ${nomep}`
+        
+        } 
+      
+        if (vel == brasileiro){
+        window.document.write('ola brasileiro!!');
+        }else{
+        window.document.write('ola estrangeiro');
+        }
+    </script>    
+</body>
+</html>

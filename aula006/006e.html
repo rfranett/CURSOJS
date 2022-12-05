@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tratamento  de dados</title>
+    <style>
+        body {
+            background-color: rgb(166, 196, 196); /* cometarios em css*/
+            color: rgb(255, 255, 255);
+            font: normal 20pt arial;
+        }
+        h1 {
+            color: rgb(248, 152, 7);
+        }
+    </style>
+</head>
+<body>
+   <h1>olá mundo!!!</h1> <!--comentarios em html-->
+   <p>aqui voce tem que saber qual numero vc quer pois tem numeros inteiros, numeros reais
+      e pode se fazer a conversao de outras formas e nesta fica um altomatico, entre o inteiros
+       e o numero quebrado ,comentando a forma errada de se fazer o codgo dentro do codigo... </p>
+   <script>
+    // var n1 = window.prompt('Digite um número: ')//aqui os numeros sao convertidos para string
+    // var n2 = window.prompt('Digite outro número: ')//pelo comando prompt
+    // var s =  n1 + n2   //deve se converter para um numero para se fazer a soma
+    // window.alert('A soma dos valores é + s')//concatenaçao
+    // (number + number) para adição 
+    //(string + string)  para concatenação
+    //window.alert('A soma dos valores é '+ string(s))aqui se presizar converter para uma string!!
+    var n1 = Number(window.prompt('Digite um número: '))
+    var n2 = Number(window.prompt('Digite outro número: '))
+    var s = n1 + n2
+    window.alert(`A soma de ${n1} e ${n2} é igual a ${s}`)
+
+   </script>
+</body>
+</html>

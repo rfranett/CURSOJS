@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de nacionalidade</title>
+    <style>
+         body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+      }
+p {
+   font-size: 2rem;
+}
+
+button {
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button.blue {
+    background-color: #3498db;
+}
+
+button.green {
+    background-color: #2ecc71;
+}
+
+button.orange {
+   background-color: orangered;
+}
+</style>
+</head>
+<body>
+    <h1>Em qual Pais voçê vive? </h1>
+    <h2><input type="text" name="n1" id="n1"></h2>
+    <input type="button" value="teste" onclick="somar()">
+    <div id="res">resultado</div>
+    <script>
+        const name = document.querySelector(".n1");
+            var n1 = prompt('de qual pais');
+            var res = window.document.getElementById('res')
+            var n2 = Number(tn2.value)
+            var s = n1 + n2 
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}<strong/>`
+    </script> 
+    
+</body>
+</html>

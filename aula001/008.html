@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if e seus retornos</title>
+    <script>
+        var nota=99;
+        var res;
+        //aprovado com estrelas >95
+        //aprovado              >=60   
+        //recuperação           >=40 && <60
+        //reprovado             <40
+        //reprovado mesmo       <20
+        if(nota>95){
+            res='Aprovadissimo';
+        }else if(nota >=60){
+            res='aprovado';
+        }else if(nota >=40){
+            res='recuperação';
+        }else if(nota >=20){
+            res='reprovado';
+        }else{
+            res='reprovado com louvor';
+        }
+        window.document.write(res);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
